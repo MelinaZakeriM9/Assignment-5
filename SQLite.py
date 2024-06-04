@@ -1,6 +1,6 @@
 import sqlite3
 
-# I didn't specify the path bc it changes from device to device apparantly
+# I didn't specify the path bc it differs from device to device apparantly
 debby = sqlite3.connect("test.db")
 
 curs = debby.cursor()
